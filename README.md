@@ -8,11 +8,12 @@ npm install koa-validator-middleware --save
 
 ### UserController.js
 ```javascript
-import {RouterController, RequestMapping, GetMapping, PostMapping, DeleteMapping} from 'koa-router-decoration';
+import RouterDecorator, {
+    RequestMapping, GetMapping, PostMapping, DeleteMapping} from 'koa-router-decoration';
 import {NotEmpty} from 'koa-validator-middleware';
 
 @RequestMapping('/users')
-export default class UserController extends RouterController {
+export default class UserController extends RouterDecorator {
     constructor() {
         super();
     }

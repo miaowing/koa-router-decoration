@@ -5,8 +5,9 @@ import PutMapping from './decorators/PutMapping';
 import DeleteMapping from './decorators/DeleteMapping';
 import * as HttpMethod from './HttpMethod';
 
-import RouterController from './RouterController';
+import RouterDecorator from './RouterDecorator';
 
 const RequestMapping = Route;
 
-export {RouterController, RequestMapping, Route, GetMapping, PostMapping, PutMapping, DeleteMapping, HttpMethod};
+export default RouterDecorator;
+export {RequestMapping, Route, GetMapping, PostMapping, PutMapping, DeleteMapping, HttpMethod};
