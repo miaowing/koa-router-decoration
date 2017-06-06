@@ -1,0 +1,27 @@
+{
+  "name": "koa-router-decoration",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaowing/koa-router-decoration.git"
+  },
+  "keywords": [
+    "koa-router",
+    "koa-router-decorator",
+    "es7-decorator"
+  ],
+  "author": "miaowing <i@zfeng.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miaowing/koa-router-decoration/issues"
+  },
+  "homepage": "https://github.com/miaowing/koa-router-decoration#readme",
+  "peerDependencies": {
+    "koa-router": "^7.2.0"
+  }
+}
